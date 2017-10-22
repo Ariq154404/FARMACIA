@@ -9,12 +9,12 @@ package FARMACIA;
  *
  * @author Tasnim Ahmed
  */
-public class ListData extends javax.swing.JPanel {
+public class Doc extends javax.swing.JPanel {
 
     /**
-     * Creates new form ListData
+     * Creates new form Doc
      */
-    public ListData() {
+    public Doc() {
         initComponents();
     }
 
@@ -29,6 +29,8 @@ public class ListData extends javax.swing.JPanel {
 
         jPanel2 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
+        jButton6 = new javax.swing.JButton();
+        jSeparator1 = new javax.swing.JSeparator();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jButton7 = new javax.swing.JButton();
@@ -48,6 +50,16 @@ public class ListData extends javax.swing.JPanel {
         jLabel3.setText("F A R M A C I A");
         jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 60));
 
+        jButton6.setFont(new java.awt.Font("Ubuntu Mono", 0, 18)); // NOI18N
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jButton6.setText("Add Physician");
+        jButton6.setToolTipText("");
+        jButton6.setBorderPainted(false);
+        jButton6.setContentAreaFilled(false);
+        jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel2.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 270, 260, 60));
+        jPanel2.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, 240, 20));
+
         add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 670));
 
         jTable1.setFont(new java.awt.Font("Ubuntu Mono", 0, 16)); // NOI18N
@@ -56,7 +68,7 @@ public class ListData extends javax.swing.JPanel {
 
             },
             new String [] {
-                "Medicine ID", "Medicine Name", "Manufacturer", "Price", "Available Qty."
+                "Doctor's Name", "Hospital", "Qualification", "Area of Expertise", "Contact No."
             }
         ));
         jTable1.setAlignmentX(1.0F);
@@ -75,7 +87,7 @@ public class ListData extends javax.swing.JPanel {
 
         jLabel5.setFont(new java.awt.Font("Palace Script MT", 0, 52)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 0, 51));
-        jLabel5.setText("List of All Medicines");
+        jLabel5.setText("Physician's Database");
         add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, 330, 50));
 
         jButton2.setBackground(new java.awt.Color(255, 255, 255));
@@ -90,11 +102,13 @@ public class ListData extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton jButton2;
+    public javax.swing.JButton jButton6;
     public javax.swing.JButton jButton7;
     public javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JSeparator jSeparator1;
     public javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }

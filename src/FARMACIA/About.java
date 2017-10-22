@@ -98,13 +98,13 @@ public class About extends javax.swing.JPanel {
 
         jLabel7.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel7.setText("Developer : TASNIM AHMED");
-        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 310, 280, 60));
+        jLabel7.setText("Developer : TASNIM AHMED, ARIQ RAHMAN");
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 310, 420, 60));
 
         jLabel11.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel11.setText("Student ID : 154407");
-        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 340, 220, 60));
+        jLabel11.setText("Student ID : 154407,154404");
+        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 340, 320, 60));
 
         jLabel8.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(51, 51, 51));

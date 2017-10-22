@@ -33,6 +33,14 @@ public class MedData extends javax.swing.JPanel {
         jLabel8 = new javax.swing.JLabel();
         jButton4 = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
+        jButton7 = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jSeparator4 = new javax.swing.JSeparator();
+        jLabel19 = new javax.swing.JLabel();
+        jSeparator5 = new javax.swing.JSeparator();
+        jLabel20 = new javax.swing.JLabel();
+        jTextField100 = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
         jSeparator9 = new javax.swing.JSeparator();
         jLabel10 = new javax.swing.JLabel();
@@ -50,8 +58,8 @@ public class MedData extends javax.swing.JPanel {
         jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
-        jButton7 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
+        jButton8 = new javax.swing.JButton();
 
         setMinimumSize(new java.awt.Dimension(1210, 670));
         setPreferredSize(new java.awt.Dimension(1210, 670));
@@ -76,12 +84,12 @@ public class MedData extends javax.swing.JPanel {
                 jButton3ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 210, 80, 80));
+        jPanel2.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 70, 80, 80));
 
         jLabel8.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("[Add Medicine to Database]");
-        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 290, 210, 40));
+        jLabel8.setText("[Add Existing Medicine]");
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 630, 190, 40));
 
         jButton4.setBackground(new java.awt.Color(29, 32, 38));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/list.png"))); // NOI18N
@@ -93,12 +101,51 @@ public class MedData extends javax.swing.JPanel {
                 jButton4ActionPerformed(evt);
             }
         });
-        jPanel2.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, 80, 80));
+        jPanel2.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 200, 80, 80));
 
         jLabel11.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setText("[List of All Medicines]");
-        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 420, -1, 40));
+        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, 40));
+
+        jButton7.setBackground(new java.awt.Color(29, 32, 38));
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/add_blue.png"))); // NOI18N
+        jButton7.setBorder(null);
+        jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jPanel2.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 560, 70, 70));
+
+        jLabel13.setFont(new java.awt.Font("Monospaced", 0, 14)); // NOI18N
+        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel13.setText("[Add New Medicine to Database]");
+        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, 40));
+
+        jTextField5.setBackground(new java.awt.Color(29, 32, 38));
+        jTextField5.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jTextField5.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField5.setBorder(null);
+        jPanel2.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 400, 240, 40));
+        jPanel2.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, 240, 10));
+
+        jLabel19.setBackground(new java.awt.Color(29, 32, 38));
+        jLabel19.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setText("Medicine Name");
+        jPanel2.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 440, 150, 20));
+        jPanel2.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 510, 240, 10));
+
+        jLabel20.setBackground(new java.awt.Color(29, 32, 38));
+        jLabel20.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel20.setText("Qty. U Wanna Add");
+        jPanel2.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 520, 180, 20));
+
+        jTextField100.setBackground(new java.awt.Color(29, 32, 38));
+        jTextField100.setFont(new java.awt.Font("Lucida Grande", 0, 18)); // NOI18N
+        jTextField100.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField100.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField100.setBorder(null);
+        jPanel2.add(jTextField100, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 470, 240, 40));
 
         add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 670));
 
@@ -179,16 +226,16 @@ public class MedData extends javax.swing.JPanel {
         jLabel9.setText("Medicine Name");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 150, 210, 40));
 
-        jButton7.setBackground(new java.awt.Color(255, 255, 255));
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/database.png"))); // NOI18N
-        jButton7.setBorder(null);
-        jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 70, 70));
-
         jLabel5.setFont(new java.awt.Font("Palace Script MT", 0, 52)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 0, 51));
         jLabel5.setText("Database");
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 50, 130, 50));
+
+        jButton8.setBackground(new java.awt.Color(255, 255, 255));
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/database.png"))); // NOI18N
+        jButton8.setBorder(null);
+        jButton8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 70, 70));
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 0, 950, 670));
     }// </editor-fold>//GEN-END:initComponents
@@ -208,10 +255,14 @@ public class MedData extends javax.swing.JPanel {
     public javax.swing.JButton jButton3;
     public javax.swing.JButton jButton4;
     public javax.swing.JButton jButton7;
+    public javax.swing.JButton jButton8;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     public javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
     public javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -222,11 +273,15 @@ public class MedData extends javax.swing.JPanel {
     private javax.swing.JSeparator jSeparator10;
     private javax.swing.JSeparator jSeparator11;
     private javax.swing.JSeparator jSeparator14;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
     private javax.swing.JSeparator jSeparator8;
     private javax.swing.JSeparator jSeparator9;
     public javax.swing.JTextField jTextField1;
+    public javax.swing.JTextField jTextField100;
     public javax.swing.JTextField jTextField2;
     public javax.swing.JTextField jTextField3;
     public javax.swing.JTextField jTextField4;
+    public javax.swing.JTextField jTextField5;
     // End of variables declaration//GEN-END:variables
 }

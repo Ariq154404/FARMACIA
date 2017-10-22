@@ -29,19 +29,16 @@ public class Menu extends javax.swing.JPanel {
 
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
-        jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
-        jSeparator5 = new javax.swing.JSeparator();
         jSeparator7 = new javax.swing.JSeparator();
         jSeparator16 = new javax.swing.JSeparator();
-        jSeparator18 = new javax.swing.JSeparator();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -83,16 +80,7 @@ public class Menu extends javax.swing.JPanel {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("F A R M A C I A");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 60));
-
-        jButton1.setFont(new java.awt.Font("Ubuntu Mono", 0, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Consult a Physician");
-        jButton1.setToolTipText("");
-        jButton1.setBorderPainted(false);
-        jButton1.setContentAreaFilled(false);
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 260, 60));
-        jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 240, 20));
+        jPanel1.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 420, 240, 20));
 
         jButton2.setFont(new java.awt.Font("Ubuntu Mono", 0, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
@@ -101,7 +89,7 @@ public class Menu extends javax.swing.JPanel {
         jButton2.setBorderPainted(false);
         jButton2.setContentAreaFilled(false);
         jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 260, 60));
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 370, 260, 60));
 
         jButton3.setFont(new java.awt.Font("Ubuntu Mono", 0, 18)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
@@ -121,41 +109,36 @@ public class Menu extends javax.swing.JPanel {
         jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 570, 260, 60));
 
-        jButton5.setFont(new java.awt.Font("Ubuntu Mono", 0, 18)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("Physicians' Database");
-        jButton5.setToolTipText("");
-        jButton5.setBorderPainted(false);
-        jButton5.setContentAreaFilled(false);
-        jButton5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 340, 260, 60));
-
         jButton6.setFont(new java.awt.Font("Ubuntu Mono", 0, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("Health Tips");
+        jButton6.setText("Physician's Database");
         jButton6.setToolTipText("");
         jButton6.setBorderPainted(false);
         jButton6.setContentAreaFilled(false);
         jButton6.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 510, 260, 60));
 
-        jLabel19.setFont(new java.awt.Font("Monospaced", 0, 16)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel19.setText("22/07/2016 12:01:55");
-        jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 260, 50));
-
         jLabel20.setFont(new java.awt.Font("Monospaced", 0, 20)); // NOI18N
         jLabel20.setForeground(new java.awt.Color(255, 255, 255));
         jLabel20.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel20.setText("154407");
-        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 260, 50));
-        jPanel1.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, 240, 20));
+        jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 190, 260, 50));
         jPanel1.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 480, 240, 20));
         jPanel1.add(jSeparator16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 560, 240, 20));
-        jPanel1.add(jSeparator18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 240, 20));
 
-        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 670));
+        jLabel21.setFont(new java.awt.Font("Monospaced", 0, 16)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel21.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel21.setText("admin");
+        jPanel1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 160, 240, 50));
+
+        jLabel19.setFont(new java.awt.Font("Monospaced", 0, 16)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel19.setText("22/07/2016 12:01:55");
+        jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 260, 50));
+
+        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 260, 670));
 
         jLabel2.setFont(new java.awt.Font("Zapfino", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 102, 102));
@@ -294,12 +277,10 @@ public class Menu extends javax.swing.JPanel {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton jButton1;
     public javax.swing.JButton jButton10;
     public javax.swing.JButton jButton2;
     public javax.swing.JButton jButton3;
     public javax.swing.JButton jButton4;
-    public javax.swing.JButton jButton5;
     public javax.swing.JButton jButton6;
     public javax.swing.JButton jButton7;
     public javax.swing.JButton jButton8;
@@ -317,6 +298,7 @@ public class Menu extends javax.swing.JPanel {
     public javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     public javax.swing.JLabel jLabel20;
+    public javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     public javax.swing.JLabel jLabel5;
@@ -332,8 +314,6 @@ public class Menu extends javax.swing.JPanel {
     private javax.swing.JSeparator jSeparator14;
     private javax.swing.JSeparator jSeparator15;
     private javax.swing.JSeparator jSeparator16;
-    private javax.swing.JSeparator jSeparator18;
-    private javax.swing.JSeparator jSeparator5;
     private javax.swing.JSeparator jSeparator6;
     private javax.swing.JSeparator jSeparator7;
     private javax.swing.JSeparator jSeparator8;

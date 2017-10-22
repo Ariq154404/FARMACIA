@@ -9,12 +9,12 @@ package FARMACIA;
  *
  * @author Tasnim Ahmed
  */
-public class ListData extends javax.swing.JPanel {
+public class Order extends javax.swing.JPanel {
 
     /**
-     * Creates new form ListData
+     * Creates new form Order
      */
-    public ListData() {
+    public Order() {
         initComponents();
     }
 
@@ -27,17 +27,28 @@ public class ListData extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel2 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
         jButton7 = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
 
         setBackground(new java.awt.Color(255, 255, 255));
         setMinimumSize(new java.awt.Dimension(1210, 670));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton7.setBackground(new java.awt.Color(255, 255, 255));
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/database.png"))); // NOI18N
+        jButton7.setBorder(null);
+        jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 10, 70, 70));
+
+        jLabel5.setFont(new java.awt.Font("Palace Script MT", 0, 52)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 0, 51));
+        jLabel5.setText("Order Statement");
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, 330, 50));
 
         jPanel2.setBackground(new java.awt.Color(29, 32, 38));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -50,13 +61,21 @@ public class ListData extends javax.swing.JPanel {
 
         add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 260, 670));
 
+        jButton2.setBackground(new java.awt.Color(255, 255, 255));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/back.png"))); // NOI18N
+        jButton2.setToolTipText("Back To Database");
+        jButton2.setBorder(null);
+        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButton2.setPreferredSize(new java.awt.Dimension(70, 70));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 10, -1, -1));
+
         jTable1.setFont(new java.awt.Font("Ubuntu Mono", 0, 16)); // NOI18N
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
             },
             new String [] {
-                "Medicine ID", "Medicine Name", "Manufacturer", "Price", "Available Qty."
+                "User ID", "Medicine ID", "Quantity", "Total Cost"
             }
         ));
         jTable1.setAlignmentX(1.0F);
@@ -66,25 +85,6 @@ public class ListData extends javax.swing.JPanel {
         jScrollPane1.setViewportView(jTable1);
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 110, 950, 560));
-
-        jButton7.setBackground(new java.awt.Color(255, 255, 255));
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/database.png"))); // NOI18N
-        jButton7.setBorder(null);
-        jButton7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 10, 70, 70));
-
-        jLabel5.setFont(new java.awt.Font("Palace Script MT", 0, 52)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 0, 51));
-        jLabel5.setText("List of All Medicines");
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, 330, 50));
-
-        jButton2.setBackground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/back.png"))); // NOI18N
-        jButton2.setToolTipText("Back To Database");
-        jButton2.setBorder(null);
-        jButton2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jButton2.setPreferredSize(new java.awt.Dimension(70, 70));
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1120, 10, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
 
